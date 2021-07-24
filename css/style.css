@@ -149,7 +149,7 @@ a {
 .service-grid {
   display: grid;
   grid-template-rows: 150px 150px;
-  grid-template-columns: 400px 400px;
+  grid-template-columns: 450px 450px;
   color: #fff;
 }
 
@@ -190,19 +190,41 @@ a {
   margin: 20px 0 0 20px;
 }
 
-.box2-conent {
+.box2-content {
   margin-top: 30px;
 }
 
-.box2-text{
+.box2-text {
   padding-top: 15px;
   font-size: 12px;
+  height: 30px;
+  margin-top: 10px;
+  line-height: 20px;
 }
 
 .box3 {
   grid-column: 2/3;
   grid-row: 2/3;
-  background: rgba(150, 32, 71, 0.445);
+  background: rgba(150, 32, 115, 0.719);
+  display: flex;
+  justify-content: space-around;
+}
+
+.box3-img {
+  width: 70%;
+  margin: 20px 0 0 20px;
+}
+
+.box3-content {
+  margin-top: 30px;
+}
+
+.box3-text {
+  padding-top: 15px;
+  font-size: 12px;
+  height: 30px;
+  margin-top: 10px;
+  line-height: 20px;
 }
 
 .blog {
@@ -319,73 +341,74 @@ a {
   padding-left: 15px;
 }
 
-.last-view{
+.last-view {
   display: flex;
   justify-content: flex-start;
   font-size: 25px;
-  width:100%;
+  width: 100%;
   color: #fff;
   margin-top: 50px;
 }
 
-.last-view1{
+.last-view1 {
   position: relative;
   width: 100%;
 }
 
-.last-view-img{
+.last-view-img {
   display: flex;
 }
 
-.last-view-text1{
+.last-view-text1 {
   position: absolute;
   top: 50%;
   left: 40%;
 }
 
-.last-view2{
+.last-view2 {
   position: relative;
 }
 
-.last-view-img2{
+.last-view-img2 {
   display: flex;
 }
 
-.last-view-text2{
+.last-view-text2 {
   position: absolute;
   top: 50%;
   left: 40%;
 }
 
-.last-content{
+.last-content {
   margin: 50px 0;
   text-align: center;
 }
 
-.last-content-text{
+.last-content-text {
   font-size: 20px;
   color: #888888;
 }
 
-.last-content-line{
+.last-content-line {
   background: rgb(175, 55, 95);
   width: 2px;
-  margin: 30px 0;
+  height: 30px;
+  margin: 30px auto;
 }
 
-.last-content-tag{
+.last-content-tag {
   position: relative;
   width: 150px;
   padding: 20px 50px;
   color: #fff;
   border-radius: 30px;
-  background: linear-gradient(90deg,rgb(226, 43, 211),rgb(202, 25, 84));
+  background: linear-gradient(90deg, rgb(226, 43, 211), rgb(202, 25, 84));
   text-decoration: none;
   display: block;
-  margin: 100px auto;
+  margin: 0 auto;
 }
 
-.last-content-tag::before{
+.last-content-tag::before {
   content: "";
   position: absolute;
   top: 27%;
@@ -398,7 +421,7 @@ a {
   display: inline-block;
 }
 
-.copyright{
+.copyright {
   font-size: 11px;
   color: #888888;
   text-align: center;
