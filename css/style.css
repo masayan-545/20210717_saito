@@ -96,6 +96,7 @@ a {
   padding-bottom: 20px;
   margin: 20px 0;
   font-size: 14px;
+  text-align: center;
 }
 
 .news-child2 {
@@ -136,8 +137,14 @@ a {
 }
 
 .service {
-  margin: 30px 200px auto;
+  margin: 30px 200px;
   width: 100%;
+}
+
+.service-content{
+  display: block;
+  width: 100%;
+  margin: 0 auto;
 }
 
 .service-ttl {
@@ -151,6 +158,8 @@ a {
   grid-template-rows: 150px 150px;
   grid-template-columns: 450px 450px;
   color: #fff;
+  width: 100%;
+  margin: 0 auto;
 }
 
 .box1 {
