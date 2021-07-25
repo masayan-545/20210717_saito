@@ -73,7 +73,8 @@ a {
 
 .tag {
   font-family: "Indie Flower", cursive;
-  margin-top: 100px;
+  padding-top: 30px;
+  margin-top: 70px;
   color: rgb(175, 55, 95);
 }
 
@@ -92,22 +93,31 @@ a {
 
 .news-child {
   display: flex;
-  border-bottom: solid 0.5px #888888;
-  padding-bottom: 20px;
   margin: 20px 0;
   font-size: 14px;
-  text-align: center;
   list-style: none;
+  flex-wrap: wrap;
+}
+
+.news-child-item {
+  border-bottom: solid 0.5px #888888;
+  width: 100%;
+  padding: 20px 0;
 }
 
 .news-dec {
-  margin-right: 15px;
-  margin-left: 15px;
+  margin: 0 20px;
+  padding: 0 10px;
   background-color: rgb(175, 55, 95);
   border-radius: 50px;
   width: 75px;
-  height: 20px;
+  height: 25px;
   color: #fff;
+}
+
+.about {
+  background: rgba(169, 169, 169, 0.164);
+  height: 400px;
 }
 
 .about-center {
@@ -238,11 +248,13 @@ a {
 }
 
 .blog {
-  margin: 30px 200px;
+  margin-top: 30px;
+  padding: 0 200px 30px 200px;
+  background: rgba(169, 169, 169, 0.164);
 }
 
 .blog-ttl {
-  margin: 15px 0;
+  padding: 15px 0;
   font-size: 20px;
   color: #888888;
 }
@@ -250,11 +262,12 @@ a {
 .flex-item {
   display: flex;
   justify-content: center;
+  background: rgba(169, 169, 169, 0.164);
 }
 
 .card {
   width: 230px;
-  margin: 20px;
+  padding: 20px;
   color: #888888;
   position: relative;
 }
@@ -272,12 +285,13 @@ a {
   color: #fff;
   font-size: 14px;
   position: absolute;
-  left: 0;
+  left: 20px;
   border-top-left-radius: 15px;
 }
 
 .card__content {
   padding: 15px 25px;
+  background: #fff;
 }
 
 .card__content-ttl {
@@ -305,6 +319,8 @@ a {
 .blog-link {
   display: flex;
   justify-content: center;
+  background: rgba(169, 169, 169, 0.164);
+  padding-bottom: 30px;
 }
 
 .link-item {
@@ -331,7 +347,8 @@ a {
   width: 600px;
   line-height: 50px;
   border: solid 1px #88888863;
-  margin: 30px 300px;
+  margin: 0px auto;
+  padding: 30px 0;
   font-size: 14px;
   color: #888888;
 }
@@ -362,11 +379,9 @@ a {
 
 .last-view1 {
   position: relative;
-  width: 100%;
-}
-
-.last-view-img {
-  display: flex;
+  background-image: url(../img/recruit.png);
+  width: 50%;
+  height: 300px;
 }
 
 .last-view-text1 {
@@ -377,10 +392,9 @@ a {
 
 .last-view2 {
   position: relative;
-}
-
-.last-view-img2 {
-  display: flex;
+  background-image: url(../img/interview.png);
+  width: 50%;
+  height: 300px;
 }
 
 .last-view-text2 {
