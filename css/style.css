@@ -97,9 +97,10 @@ a {
   margin: 20px 0;
   font-size: 14px;
   text-align: center;
+  list-style: none;
 }
 
-.news-child2 {
+.news-dec {
   margin-right: 15px;
   margin-left: 15px;
   background-color: rgb(175, 55, 95);
@@ -156,7 +157,7 @@ a {
 .service-grid {
   display: grid;
   grid-template-rows: 150px 150px;
-  grid-template-columns: 450px 450px;
+  grid-template-columns: 500px 500px;
   color: #fff;
   width: 100%;
   margin: 0 auto;
