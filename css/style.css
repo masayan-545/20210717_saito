@@ -137,11 +137,11 @@ a {
 }
 
 .service {
-  margin: 30px 200px;
-  width: 100%;
+  margin: 0 auto;
+  width: 1000px;
 }
 
-.service-content{
+.service-content {
   display: block;
   width: 100%;
   margin: 0 auto;
