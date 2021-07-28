@@ -194,7 +194,7 @@ a {
 
 .box1-text {
   margin: 0 30px;
-  font-size: 14px;
+  font-size: 16px;
 }
 
 .box2 {
@@ -202,7 +202,6 @@ a {
   grid-row: 1/2;
   background: rgba(150, 32, 71, 0.719);
   display: flex;
-  justify-content: space-around;
 }
 
 .box2-img {
@@ -214,9 +213,18 @@ a {
   margin-top: 30px;
 }
 
+.box-left {
+  width: 150px;
+}
+
+.box-right {
+  display: flex;
+  flex-direction: column;
+}
+
 .box2-text {
   padding-top: 15px;
-  font-size: 12px;
+  font-size: 16px;
   height: 30px;
   margin-top: 10px;
   line-height: 20px;
@@ -227,7 +235,6 @@ a {
   grid-row: 2/3;
   background: rgba(150, 32, 115, 0.719);
   display: flex;
-  justify-content: space-around;
 }
 
 .box3-img {
@@ -241,7 +248,7 @@ a {
 
 .box3-text {
   padding-top: 15px;
-  font-size: 12px;
+  font-size: 16px;
   height: 30px;
   margin-top: 10px;
   line-height: 20px;
